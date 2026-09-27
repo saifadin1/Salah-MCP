@@ -1,0 +1,67 @@
+## .NET / Visual Studio / Rider / VS Code
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# IDE folders
+.vs/
+.vscode/
+.idea/
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# MSBuild logs / binlogs
+*.binlog
+*.log
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Publish / deployment output
+[Pp]ublish/
+*.pubxml
+*.pubxml.user
+*.azurePubxml
+
+# Rider/ReSharper caches
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+*.env.local
+appsettings.*.local.json
+secrets.json
+
+# dotnet-tools / local config
+*.dll.config
+project.lock.json
+project.fragment.lock.json
+artifacts/
