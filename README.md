@@ -15,7 +15,7 @@ docker pull saif637/salah-mcp:latest
 Or build it yourself from source:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/saifadin1/Salah-MCP.git
 cd SalahMCP
 docker build -t salah-mcp .
 ```
